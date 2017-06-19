@@ -30,7 +30,7 @@ The tests for the project reside in the modified sdk project at the location abo
 **choices and assumptions**
 
  - It wasn't within the scope of the assignment to action a delivery
- - ms localdb is acceptable in replacement for a in memory solution. I find it just as quick and easy to set up and its doesn't require a sql server install, its stored in a portable binary within the project. It allowed me to demonstrate use of ORM and db schema. Although the scope of the assigment maybe didn't need it
+ - ms localdb is acceptable in replacement for a in memory solution. I find it just as quick and easy to set up and its doesn't require a full sql server instance install, its stored in a portable binary instead. It allowed me to demonstrate use of ORM and db schema. Although the scope of the assigment maybe didn't need it. https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-2016-express-localdb on how to install ms local-db
  - I have implemented auth on the endpoint but just as an example useing the bundled secret framework you have built in the httpClient within the sdk library. hardcoding a string match. Would in implementation make it basic auth or idealy run an identity server instance.
  - If you have any questions of issues running the assignment please feel free to contact me
  
